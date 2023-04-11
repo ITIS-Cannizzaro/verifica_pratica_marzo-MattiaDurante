@@ -3,11 +3,15 @@ public class verifica_marzo {
 	static Scanner in = new Scanner(System.in);
 	public static void main(String[] args) 
 	{
-		//esd();
-		//es3m();
-		//esm2();
-		esf1();
+		// Accordino: ti prego, la prossima volta scrivici i numeri o nomi!!!
+		//esd();  // UgualiConsecutivi 
+		//es3m(); // LancioRisiko
+		//esm2(); // StampaZigZag
+		esf1(); // MinimoDiArray
 	}
+	
+	// Accordino: I nomi dei metodi devono far capire cosa fanno!
+	// ok: 4pt
 	static void esd()
 	{
 		int[] array = new int[20];
@@ -35,6 +39,8 @@ public class verifica_marzo {
 		if (c == a.length)
 			System.out.println("non ci sono numeri uguali");
 	}
+	
+	// Accordino: ok 3 pt
 	static void es3m()
 	{
 		int[] att = new int[3];
@@ -81,7 +87,7 @@ public class verifica_marzo {
 			pta ++;
 		else 
 			ptb ++;
-		System.out.println("i punti del attaccante sono : "+ pta + "\ni punti del difensore sono " + ptb);
+		System.out.println("i punti dell'attaccante sono : "+ pta + "\ni punti del difensore sono " + ptb);
 	}
 	static void esm2()
 	{
@@ -125,7 +131,7 @@ public class verifica_marzo {
 		for(int i = a.length-1; i > 0 ; i--)
 			if(a[min] > a[i])
 				min = i;
-		System.out.println("il valore minimo è : " + a[min] + " alla posizione numero " + min);
+		System.out.println("il valore minimo ï¿½ : " + a[min] + " alla posizione numero " + min);
 	}
 }
 
